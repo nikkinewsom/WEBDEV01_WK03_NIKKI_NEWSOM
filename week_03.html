@@ -11,6 +11,8 @@
 
 
     <link rel="stylesheet" href="assets/css/style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <title>About Me</title>
 </head>
 
@@ -52,7 +54,7 @@
         </div>
     </nav>
 
-    <div class="hero d-flex">
+    <div class="hero d-flex justify-content-center align-items-center">
         <div class="hero-text text-center">
             <h1 class="animate__animated animate__tada">Hi Friends!</h1>
             <p class="animate__animated animate__delay-2s animate__hinge">I'm Nikki Newsom</p>
@@ -78,19 +80,93 @@
                 </p>
             </article>
         </section>
-        <section>
-            <UL>
-                <li>I'm a licensed cosmetologist, but no longer practice besides on family</li>
-                <li>My favorite hobby is photography</li>
-                <li>I'm a cat person</li>
-                <li>I prefer rainy days</li>
-            </UL>
-        </section>
-    </div>
+        <!-- Modal -->
+        <div class="modal fade" id="hobbiesModal" tabindex="-1" aria-labelledby="hobbiesModalLabel" aria-hidden="true">
+            <div class="modal-dialog  modal-sm">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="hobbiesModalLabel">My Hobbies</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-sm-12 col-md-3">
+                                    <div class="card" style="width: 16rem;">
+                                        <img src="assets/images/natanni-hLSwrt4L6Lc-unsplash.jpg" class="card-img-top"
+                                            alt="Photography">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Photography</h5>
+                                            <p class="card-text">I love photo journalism and unposed lifestyle
+                                                photography.
+                                                My favorite photographer is Diane Arbus.</p>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
-        crossorigin="anonymous"></script>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-12 col-md-3">
+                                        <div class="card" style="width: 16rem;">
+                                            <img src="assets/images/juliet-sarmiento-MBloJ1A8QLM-unsplash.jpg"
+                                                class="card-img-top" alt="Bird Watching">
+                                            <div class="card-body">
+                                                <h5 class="card-title">Bird Watching</h5>
+                                                <p class="card-text">Since becoming a stay at home mom, I found a new
+                                                    love
+                                                    for bird watching. I needed a new hobby that was simple and less
+                                                    time
+                                                    consuming since I'm busy with my son all day. We put a few bird
+                                                    feeders
+                                                    outside of the living room window and so many different species of
+                                                    birds
+                                                    started to show up. And who knew they were so entertaining? And of
+                                                    course
+                                                    educational. It's really fun!
+                                                </p>
+
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-12 col-md-3">
+                                            <div class="card" style="width: 16rem;">
+                                                <img src="assets/images/rocknwool-jGXBpAKGkfI-unsplash.jpg"
+                                                    class="card-img-top" alt="Knitting">
+                                                <div class="card-body">
+                                                    <h5 class="card-title">Knitting</h5>
+                                                    <p class="card-text">I'm a beginner, but I love to learn new things
+                                                        and
+                                                        when I have time, it's a surprisingly relaxing hobby. I'd love
+                                                        to
+                                                        knit a sweater someday! For now, it's just blankets. </p>
+
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-12 col-md-3">
+                                                <div class="card" style="width: 16rem;">
+                                                    <img src="assets/images/sumeet-b-cM8mULHNn0s-unsplash.jpg"
+                                                        class="card-img-top" alt="Music">
+                                                    <div class="card-body">
+                                                        <h5 class="card-title">Music</h5>
+                                                        <p class="card-text">I don't play an instrument but I love to
+                                                            listen
+                                                            to all kinds of music. Indie, 90s, just about anything
+                                                            except
+                                                            country. Unless it's Garth Brooks.</p>
+
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+                    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+                    crossorigin="anonymous"></script>
 </body>
 
 </html>
