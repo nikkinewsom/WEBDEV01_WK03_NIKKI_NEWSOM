@@ -1,0 +1,12 @@
+body {
+    background-color: lightcoral;
+}
+
+.hero {
+    width: 100vw;
+    height: 100vh;
+    background-color: khaki;
+    position: relative;
+    background: url('../images/NikkiNewsom_Crows.jpg')
+    
+}
