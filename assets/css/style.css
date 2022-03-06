@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Bebas+Neue&family=Didact+Gothic&family=Homemade+Apple&family=Karma:wght@300&family=Permanent+Marker&family=Reenie+Beanie&family=Roboto&family=Source+Sans+Pro:wght@700&display=swap');
 
 body {
     background-color: rgb(238, 198, 198);
@@ -6,17 +6,32 @@ body {
 
 .hero {
     width: 100vw;
-    height: 150vh;
+    height: 143.5vh;
     
     background: url('../images/sarah-dorweiler-x2Tmfd1-SgA-unsplash.jpg');
     
-    background-size: cover;
+    background-size: contain;
     position: relative;
     background-repeat: none;
     
-      
-    
-       
+                      
 }
 
-    
+    .hero-text h1{
+        font-family: 'Bebas Neue', cursive;
+        font-size: 3.5rem;
+       
+    }
+
+    .hero-text p{
+        font-family: 'Bebas Neue', cursive;
+        font-size: 1.6rem;
+    }
+
+    #about-me-header h1{
+        font-family: 'Permanent Marker', cursive;
+    }
+
+    article p{
+        font-family: 'Didact Gothic', sans-serif;
+    }
